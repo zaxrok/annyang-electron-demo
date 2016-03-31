@@ -8,6 +8,27 @@
     <h1>Hello World!</h1>
     We are using node <script>document.write(process.versions.node)</script>,
     Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+    Electron <script>document.write(process.versions.electron)</script>,
+    and <strong>annyang</strong>.
+    <script>
+      // Require annyang
+      const annyang = require('./annyang.min.js');
+
+      // Turn on debug messages
+      annyang.debug();
+
+      // Define sample command
+      var commands = {
+        'hello': function() {
+          console.log('world');
+        }
+      };
+
+      // Add our commands to annyang
+      annyang.addCommands(commands);
+
+      // Start listening. You can call this here, or attach this call to an event, button, etc.
+      annyang.start();
+    </script>
   </body>
 </html>
