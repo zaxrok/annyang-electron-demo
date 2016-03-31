@@ -1,16 +1,10 @@
-# electron-quick-start
+# Speech Recognition in an Electron desktop app using annyang
 
-**Clone and run for a quick way to see an Electron in action.**
+**Clone and run for a quick way to see Electron in action.**
 
-This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start) within the Electron documentation.
+This is a minimal Electron application based on the Electron [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start), with some added Speech Recognition magic.
 
-A basic Electron application needs just these files:
-
-- `index.html` - A web page to render.
-- `main.js` - Starts the app and creates a browser window to render HTML.
-- `package.json` - Points to the app's main file and lists its details and dependencies.
-
-You can learn more about each of these components within the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start).
+You can learn more about Speech Recognition on the [annyang page](https://github.com/TalAter/annyang).
 
 ## To Use
 
@@ -24,7 +18,3 @@ cd electron-quick-start
 # Install dependencies and run the app
 npm install && npm start
 ```
-
-Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/latest).
-
-#### License [CC0 (Public Domain)](LICENSE.md)
