@@ -12,9 +12,9 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone https://github.com/atom/electron-quick-start
+git clone https://github.com/TalAter/annyang-electron-demo.git
 # Go into the repository
-cd electron-quick-start
+cd annyang-electron-demo
 # Install dependencies and run the app
 npm install && npm start
 ```
